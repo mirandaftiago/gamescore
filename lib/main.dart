@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gamescore/HomePage.dart';
 import 'package:gamescore/LoginScreen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const HomePage(),
       routes: {
         '/login': (context) => const LoginScreen(),
       },

@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           width: 350,
           child: FilledButton(
             onPressed: () {
-              Navigator.pop(context);
+              Navigator.pushNamed(context, '/login');
             },
             child: const Text(
               'Welcome',
