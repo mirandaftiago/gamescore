@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107563199617",
+    "project_id": "gamescore-001",
+    "storage_bucket": "gamescore-001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107563199617:android:2301cf8775ab8ab3383180",
+        "android_client_info": {
+          "package_name": "com.company.gamescore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdbtjNnhBrcYrPwj79E7mjE2cGHl9rMOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
