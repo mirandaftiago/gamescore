@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gamescore/main.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -106,21 +105,5 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
     );
-  }
-
-  String? validateEmail(String? email) {
-    if (email!.isEmpty) {
-      return 'Can\'t be empty';
-    }
-    if (email.length < 4) {
-      return 'Too short';
-    }
-    if (!RegExp(
-            r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
-        .hasMatch(email)) {
-      return 'Invalid Email Id';
-    }
-    // return null if the text is valid
-    return null;
   }
 }
